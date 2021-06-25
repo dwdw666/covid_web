@@ -1,0 +1,88 @@
+
+<!-- ----- début fragmentCaveMenu -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router2.php?action=covidAccueil">VACCIN</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="false" aria-expanded="true">Gestion des vaccins <span class="caret"></span></a>
+        <ul class="dropdown-menu">         
+          <li><a href="router2.php?action=vaccinReadAll">Liste des vaccins</a></li>
+          <li><a href="router2.php?action=vaccinCreate">Ajout d'un vaccin</a></li>
+          <li><a href="router2.php?action=vaccinUpdate">Mise à jour d'un vaccin</a></li>
+        </ul>
+      </li>
+
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des centres <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router2.php?action=centreCreate">Ajout d'un centre</a></li> 
+          <li><a href="router2.php?action=centreReadAll">Liste des centres</a></li>
+        </ul>
+      </li>
+
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des patients <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router2.php?action=patientCreate">Ajout d'un patient</a></li> 
+          <li><a href="router2.php?action=patientReadAll">Liste des patients</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des stocks <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown">
+          <li><a href="router2.php?action=centreReadAllStock">Liste des centres avec le nombre de doses de chaque vaccin</a></li>
+          <li><a href="router2.php?action=centreInventaire">Nombre global de doses des centres</a></li> 
+          <li><a href="router2.php?action=centreAttribution">Attribution de vaccins pour un centre</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des rendez-vous <span class="caret"></span></a>
+        <ul class="dropdown-menu">       
+          <li><a href="router2.php?action=patientReadId&target=patientVaccination">Dossier de vaccination d'un patient</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Mes innovations <span class="caret"></span></a>
+        <ul class="dropdown-menu">  
+          <li><a href="router2.php?action=innovation_1">Patient et Center</a></li>
+          <li><a href="router2.php?action=innovation_3">Les vaccins les plus populaires dans chaque centre</a></li>
+          <li><a href="router2.php?action=innovation_2">Augmentation des vaccins</a></li>
+        </ul>
+      </li> 
+
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+        <ul class="dropdown-menu"> 
+          <li><a href="router2.php?action=mesPropositions_1">Innovation 1</a></li>
+          <li><a href="router2.php?action=mesPropositions_2">Innovation 2</a></li>
+          <li><a href="router2.php?action=mesPropositions_3">Innovation 3</a></li>
+          <li><a href="router2.php?action=viewGlobal">Votre point de vue</a></li>
+        </ul>
+      </li> 
+
+
+    </ul>
+  </div>
+</nav>
+
+<!-- ----- fin fragmentCaveMenu -->
+
